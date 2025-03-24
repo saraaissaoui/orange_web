@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets Académiques - Sara Aïssaoui</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF;
+            color: #333;
+        }
+        header {
+            background-color: #0a0a0a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+        }
+        .logo {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 30vh;
+            background-color: #ff7900;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            color: #ff7900;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .project-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .project {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .project h3 {
+            color: #ff7900;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .video-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .video-container video {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+        /* Style des boutons de navigation */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between; /* Aligne les flèches de chaque côté */
+            width: 80%; /* Taille du conteneur pour une meilleure disposition */
+            margin: 30px auto; /* Centrer le conteneur sur la page */
+        }
+
+        .nav-arrow {
+            font-size: 1.2em;
+            color: #ff7900;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-arrow:hover {
+            color: #ff3e00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo_orange.jpg" alt="Logo Orange" class="logo">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Mes Projets Académiques</h1>
+        <p>Découvrez quelques-uns de mes projets réalisés pendant mes études. Ces projets ont été réalisés en binôme, renforçant ainsi mes compétences en gestion d'équipe et collaboration.</p>
+    </div>
+
+    <div class="content">
+
+        <!-- Section projet 1 : Labyrinthe en C++ -->
+        <div class="project-section">
+            <div class="project">
+                <h3>Labyrinthe - Langage C++</h3>
+                <p><strong>Durée : 3 mois</strong></p>
+                <p>Développement d’un générateur et solveur de labyrinthes en utilisant des algorithmes de parcours.</p>
+                <p>Ce projet a été réalisé en binôme, ce qui m'a permis de développer des compétences en gestion d’équipe, communication et prise de décisions collectives.</p>
+            </div>
+        </div>
+
+        <!-- Section projet 2 : Jeu d’enquête en Python -->
+        <div class="project-section">
+            <div class="project">
+                <h3>Jeu d’enquête - Langage Python</h3>
+                <p><strong>Durée : 2 mois</strong></p>
+                <p>Développement d’un jeu interactif où le joueur explore un village mystérieux pour résoudre une énigme. Le jeu propose des scénarios multiples, avec des choix influençant l’issue de l’histoire.</p>
+                <p>Ce projet a également été réalisé en binôme, ce qui a facilité l’échange d’idées et la répartition des tâches, renforçant ainsi ma capacité à travailler en équipe pour atteindre un objectif commun.</p>
+            </div>
+        </div>
+
+        <!-- Section vidéo : Ajoutez ici les vidéos de vos projets -->
+        <div class="video-container">
+            <h2>Voir les vidéos de mes projets</h2>
+            <!-- Vidéo de projet 1 : Labyrinthe en C++ -->
+            <video controls>
+                <source src="video_labyrinthe.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge les vidéos HTML5.
+            </video>
+
+            <!-- Vidéo de projet 2 : Jeu d'enquête en Python -->
+            <video controls>
+                <source src="projet_python.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge les vidéos HTML5.
+            </video>
+        </div>
+        <!-- Navigation avec flèches -->
+        <div class="nav-buttons">
+            <!-- Flèche vers la page précédente (Expériences) -->
+            <a href="loisirs.html" class="nav-arrow">← Mes loisirs</a>
+
+            <!-- Flèche vers la page suivante (Loisirs) -->
+            <a href="experiences.html" class="nav-arrow">Mes expériences professionnelles →</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 - Sara Aïssaoui</p>
+    </footer>
+
+</body>
+</html>

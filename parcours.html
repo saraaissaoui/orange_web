@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Parcours - Sara Aïssaoui</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF;
+            color: #333;
+        }
+        header {
+            background-color: #0a0a0a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+        }
+        .logo {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 30vh;
+            background-color: #ff7900;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            color: #ff7900;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .experience-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .experience {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .experience h3 {
+            color: #ff7900;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .experience p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        /* Style des boutons de navigation */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between; /* Aligne les flèches de chaque côté */
+            width: 80%; /* Taille du conteneur pour une meilleure disposition */
+            margin: 30px auto; /* Centrer le conteneur sur la page */
+        }
+
+        .nav-arrow {
+            font-size: 1.2em;
+            color: #ff7900;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-arrow:hover {
+            color: #ff3e00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo_orange.jpg" alt="Logo Orange" class="logo">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Mon Parcours</h1>
+        <p>Explorez mon parcours académique et professionnel, qui m'a permis d'acquérir des compétences clés dans le domaine de l'ingénierie et des technologies.</p>
+    </div>
+
+    <div class="content">
+
+        <!-- Section parcours académique : ESIEE Paris -->
+        <div class="experience-section">
+            <div class="experience">
+                <h3>Cycle ingénieur - DATA et applications (2024 - 2027)</h3>
+                <p><strong>ESIEE Paris - Université Gustave Eiffel</strong></p>
+                <p>Actuellement en première année d’école d’ingénieur à l’ESIEE Paris, je me spécialise en Data et Applications. Ce programme de 3 ans me permet d’acquérir une formation de haut niveau dans les domaines des technologies de l’information, du développement informatique, et de l’analyse de données.</p>
+            </div>
+        </div>
+
+        <!-- Section parcours académique : Lycée Albert Schweitzer -->
+        <div class="experience-section">
+            <div class="experience">
+                <h3>Classes préparatoires aux grandes écoles - Physique, Chimie et Sciences de l’Ingénieur (2022 - 2024)</h3>
+                <p><strong>Lycée Albert Schweitzer - Le Raincy</strong></p>
+                <p>En classes préparatoires, j’ai suivi un programme intensif en physique, chimie et sciences de l’ingénieur, ce qui m’a permis de développer une grande rigueur et des capacités d’analyse essentielles pour la suite de mes études d’ingénieur.</p>
+                <p>Cette période a renforcé mes compétences en résolution de problèmes complexes, ainsi que mon aptitude à travailler sous pression, ce qui est essentiel dans les environnements professionnels exigeants.</p>
+            </div>
+        </div>
+
+        <!-- Section parcours académique : Lycée Alfred Nobel -->
+        <div class="experience-section">
+            <div class="experience">
+                <h3>Baccalauréat Scientifique - Option Mathématiques Expertes (2019 - 2022)</h3>
+                <p><strong>Lycée Alfred Nobel - Mention Bien</strong></p>
+                <p>Le baccalauréat scientifique, avec une option mathématiques expertes, m’a permis de développer une forte capacité d’analyse et de raisonnement logique. Ce programme a jeté les bases de mes études futures en ingénierie, en particulier dans le domaine des sciences appliquées et des technologies.</p>
+            </div>
+        </div>
+
+         <!-- Navigation avec flèches -->
+         <div class="nav-buttons">
+
+
+            <!-- Flèche vers la page suivante (Loisirs) -->
+            <a href="loisirs.html" class="nav-arrow">Mes loisirs →</a>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>© 2025 - Sara Aïssaoui</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sara Aïssaoui</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #0a0a0a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            width: 100%;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 30vh;
+            background-color: #ff7900;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .contact-content {
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .contact-content h2 {
+            font-size: 2.5em;
+            color: #ff7900;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .contact-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center content inside */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .contact-item i {
+            font-size: 2.2em;
+            color: #ff7900;
+            margin-right: 15px;
+        }
+
+        .contact-item a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+            color: #ff7900;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo_orange.jpg" alt="Logo Orange" class="logo">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Contactez-moi</h1>
+        <p>Je serai ravie de discuter avec vous de toute opportunité ou de toute question concernant mes projets ou mon parcours.</p>
+    </div>
+
+    <div class="contact-content">
+
+        <!-- Email Section -->
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:sara.aissaoui@edu.esiee.fr">sara.aissaoui@edu.esiee.fr</a>
+        </div>
+
+        <!-- Phone Section -->
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:0769988206">07 69 98 82 06</a>
+        </div>
+
+        <!-- LinkedIn Section -->
+        <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/sara-aissaoui-6b6b4a306/" target="_blank">Mon LinkedIn</a>
+        </div>
+
+        <!-- Personal Website (CV) Section -->
+        <div class="contact-item">
+            <i class="fas fa-globe"></i>
+            <a href="https://saraaissaoui.github.io/mon-site/" target="_blank">Mon CV en ligne</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 - Sara Aïssaoui</p>
+    </footer>
+
+</body>
+</html>
